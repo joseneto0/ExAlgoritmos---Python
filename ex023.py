@@ -9,3 +9,5 @@ sexo = input('Digite seu sexo: [M/F] ').upper()
 preco = float(input('Digite o preço da sua compra: '))
 if sexo == 'M':
     print(f'Com o desconto de 5%, sua compra ficará por R${preco - (preco * 0.05)}')
+else:
+    print(f'Com o desconto de 13%, sua compra ficará por R${preco - (preco * 0.13)}')
